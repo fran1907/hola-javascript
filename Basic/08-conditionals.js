@@ -28,7 +28,7 @@ if (age == 37){
 
 // switch
 
-let day = 8
+let day = 6
 let dayName
 
 switch (day){
@@ -57,3 +57,4 @@ switch (day){
         dayName = "Numero de dia incorrecto"
 }  
 console.log(dayName)
+ 
