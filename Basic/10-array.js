@@ -78,7 +78,8 @@ console.log(myArray)
 
 myArray = ["Francisco", "Ruiz", "Martin", 22]
 
-let myNewArray= myArray.slice(0,2)
+//Toma desde el indice 1 hasta antes del indice 4
+let myNewArray= myArray.slice(1,4)
 console.log(myArray)
 console.log(myNewArray)
 
@@ -87,10 +88,12 @@ console.log(myNewArray)
 myArray.splice(1, 3)
 console.log(myArray)
 
-myArray = ["Francisco", "Ruiz", "Martin", 22]
 
-myArray.splice(1, 1, "Nuevo elemento")
+myArray = ["Francisco", "Ruiz", "Martin", 22]
+// Empieza en el indice 0, elimina 2 elementos e insteta "Nuevo elemento"
+myArray.splice(0, 2, "Nuevo elemento")
 console.log(myArray)
+
 
 
 
